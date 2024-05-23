@@ -1,0 +1,39 @@
+#new-book-btn {
+    display: block;
+    margin: 0px auto;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(189, 116, 116);
+    padding: 10px 20px;
+    font-weight: bolder;
+    font-size: large;
+    cursor: pointer;
+}
+
+form{
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgb(189, 116, 116);
+    
+}
+label{
+    display: block;
+}
+#library {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.book-card{
+    
+    background-color: rgb(200, 224, 255);
+    width: fit-content;
+    margin: 10px 20px;
+    padding: 10px;
+    box-shadow: 5px 5px lightblue;
+}
